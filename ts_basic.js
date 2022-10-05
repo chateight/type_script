@@ -1,7 +1,7 @@
-const main = () => {
-  console.log('Hello!');
-  console.log("Hello!");
-  console.log("Hello!");
-};
+function greeter(person) {
+  return "Hello, " + person;
+}
 
-main();
+let user = "John";
+
+console.log(greeter(user));
