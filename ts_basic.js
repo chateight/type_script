@@ -1,3 +1,5 @@
+// .js is a compiled file
+// tsc ts_basic.ts
 function greeter_ts(person) {
     return "Hello, " + person;
 }
