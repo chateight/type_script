@@ -4,5 +4,5 @@
 function greeter_ts(person) {
     return "Hello, " + person;
 }
-let user_ts = "John";
+let user_ts = "John Doe";
 console.log(greeter_ts(user_ts));
